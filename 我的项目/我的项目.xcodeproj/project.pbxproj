@@ -14,6 +14,7 @@
 		C9968FE720A92393006C9DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9968FE520A92393006C9DF6 /* LaunchScreen.storyboard */; };
 		C9968FF220A92393006C9DF6 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9968FF120A92393006C9DF6 /* ____Tests.swift */; };
 		C9968FFD20A92393006C9DF6 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9968FFC20A92393006C9DF6 /* ____UITests.swift */; };
+		C996900C20A92437006C9DF6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996900B20A92437006C9DF6 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C9968FF820A92393006C9DF6 /* 我的项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "我的项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9968FFC20A92393006C9DF6 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		C9968FFE20A92393006C9DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C996900B20A92437006C9DF6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		C996900A20A923B8006C9DF6 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				C996900B20A92437006C9DF6 /* Person.swift */,
 			);
 			path = "我的框架";
 			sourceTree = SOURCE_ROOT;
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C996900C20A92437006C9DF6 /* Person.swift in Sources */,
 				C9968FDF20A92391006C9DF6 /* ViewController.swift in Sources */,
 				C9968FDD20A92391006C9DF6 /* AppDelegate.swift in Sources */,
 			);
